@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Art Gallery</title>
+  </head>
+  <body>
+    <div class="all-container">
+      <section>
+        <header>
+          <ul>
+            <li class="AA-u"><a href="#about-artist">ABOUT ARTIST</a></li>
+            <li class="W-u"><a href="#works">WORKS</a></li>
+            <li class="TP-u"><a href="#time-and-place">TIME AND PLACE</a></li>
+            <li class="C-u"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </header>
+        <div class="h-bg">
+          <div class="text-container">
+            <h2>Opening Friday July 27</h2>
+            <h1>Modern Art Exhibition</h1>
+            <p>Time: 9pm</p>
+            <p>Location: LONDON, ENGLAND</p>
+            <button>BUY TICKET</button>
+          </div>
+        </div>
+      </section>
+      <section class="horizontal-text">
+        <div>
+          <h4>ABOUT THE EXHIBITION</h4>
+          <h1>Real & true moment</h1>
+          <p>
+            Exhibition idea does not attempt to represent an accurate depiction
+            of a visual reality but instead use colours, shapes, different forms
+            and gestural emotion represent idea.
+          </p>
+        </div>
+      </section>
+      <section class="even-columns">
+        <div><img src="assets/images/statue.jpg" /></div>
+        <div><img src="assets/images/gallery.jpg" /></div>
+        <div>
+          <div class="stairs-text">
+            <h1>About that one and special moment</h1>
+            <p>
+              Art has also had an impact upon the creative life of humans. From
+              ancient times it has inspired people to do things their own way
+            </p>
+          </div>
+        </div>
+        <div></div>
+        <div class="combine">5</div>
+        <div><img src="assets/images/artist.jpg" /></div>
+        <div id="about-artist">
+          <div class="artist-text-container">
+            <h3>ABOUT THE ARTIST</h3>
+            <h2>Momentum creator: Julia Hawson</h2>
+            <p>
+              New York-born Julia Hawson is a master of different arts. She is
+              well known for her stunning and amazing artworks which were
+              presented in more than 20 different countries.”
+            </p>
+          </div>
+        </div>
+        <div id="works">
+          <div class="works-intro">
+            <h3>POPULAR ARTWORKS</h3>
+            <h2>Some of her works</h2>
+            <p>
+              Here you will see some the most popular and stunning Julia Hawson
+              artworks which will be present at the art exhibition on Jul 27, ar
+              Moora Gallery, London.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="works-desc-one">
+            <h2>Darkness, 2018</h2>
+            <p>
+              As Julia said, it was the most expressive artwork for her. It took
+              only about 5 minutes to paint to have the result that she wanted.
+              The idea was to reflect our social connection with each other.
+            </p>
+          </div>
+        </div>
+        <div><img src="assets/images/art1.png" /></div>
+        <div><img src="assets/images/art3.jpg" /></div>
+        <div>
+          <div class="works-desc-two">
+            <h2>After that moment, 2018</h2>
+            <p>
+              Julia believes that love is the crucial value to everyone who
+              wants to live a full life. You should be able to love somebody as
+              you love yourself. With this sculpture, she wanted to portray the
+              love for everybody.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="works-desc-one">
+            <h2>True, 2018</h2>
+            <p>
+              This artwork presented individuals feelings. Julia idea and
+              observation is that nowadays people sometimes are misled by their
+              inner emotions and not always express themselves as individuals.
+            </p>
+          </div>
+        </div>
+        <div><img src="assets/images/art4.jpg" /></div>
+        <div id="time-and-place">
+          <div class="dl">
+            <h2>Date & location</h2>
+            <p>Buy tickets on internet or at the gallery before the event</p>
+          </div>
+        </div>
+        <div>
+          <div class="new-collec">
+            <h3>New collection exposition in London</h3>
+            <p>Date: Jul 27 2020</p>
+            <p>Time: 8 pm - 10 pm</p>
+            <p>Location: Moora Gallery, London</p>
+            <p>Price: £16</p>
+            <button>BUY TICKET</button>
+          </div>
+        </div>
+        <!-- div17 -->
+        <div id="contact">
+          <div class="email-form">
+            <h2>Join our mailing list and schedule your visit</h2>
+            <form>
+              <label>Email address*</label>
+              <input type="text" placeholder="Your email address" />
+            </form>
+            <button>SUBMIT</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-l">
+            <h2>Moment</h2>
+          </div>
+        </div>
+        <div>
+          <div class="footer-r">
+            <div><h1>Contacts</h1></div>
+            <div>
+              <p>Phone:</p>
+              <p>123-456-7890</p>
+            </div>
+            <div>
+              <p>Email:</p>
+              <p>info@ayomide.com</p>
+            </div>
+            <div>
+              <h1>Socials</h1>
+              <div class="icons">
+                <embed src="./assets/icons/twitter-brands.svg" />
+                <embed src="./assets/icons/facebook-brands.svg" />
+                <embed src="./assets/icons/instagram-brands.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      const nav = document.querySelector("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY >= 50) {
+          nav.classList.add("active_nav");
+        } else {
+          nav.classList.remove("active_nav");
+        }
+      });
+    </script>
+  </body>
+</html>
